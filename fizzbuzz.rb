@@ -1,4 +1,3 @@
-# number = gets.chomp.to_i 
   def fizzbuzz(number)
     if number % 3 == 0 
       puts "Fizz"
@@ -6,6 +5,7 @@
       puts "Buzz"
     elsif number % 3 && number % 5 == 0 
       puts "FizzBuzz"
+    end
 end 
 
 fizzbuzz(3)
