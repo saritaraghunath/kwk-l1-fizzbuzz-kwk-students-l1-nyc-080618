@@ -7,3 +7,5 @@
     elsif number % 3 && number % 5 == 0 
       puts "FizzBuzz"
 end 
+
+fizzbuzz(3)
